@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>UNIVERSITY WEBSITE</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?
+       family-poppins:wght@100;200;300;400;600;700&display-swap"
+       rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+       
+       <section class="sub-header">
+      
+   <nav>
+   <a href="index.html"><img src="image/logo.png" ></a>
+       <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+           
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+       </div>
+       <i class="fa fa-bars"onclick="showMenu()"></i>
+
+    </nav>
+    <h1>About Us</h1>
+   </section>
+
+ <!----- About Us ----->
+
+ <section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Largest University</h1>
+            <p>EDUFORD is a leading institution dedicated to academic excellence, innovation, and inclusivity. Since 2000, we have been committed to providing a dynamic learning environment where students can thrive academically, personally, and professionally. Our diverse community of students, faculty, and staff is united by a shared passion for learning, discovery, and service to others. With state-of-the-art facilities, cutting-edge research opportunities, and a vibrant campus culture, EDUFORD is more than just a place of education</p>
+            <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="image/about.jpg">
+
+
+        </div>
+    </div>
+ </section>
+
+
+ <!----- footer ----->
+
+
+<section class="footer">
+   <h4>About Us</h4>
+   <p>EDUFORD, where excellence in education meets a commitment to innovation <br> EDUFORD has been a cornerstone of higher learning, dedicated to nurturing the next generation of leaders, thinkers, and creators.</p>
+
+   <div class="icons">
+       <i class="fa fa-facebook"></iclass></i>
+       <i class="fa fa-twitter"></iclass></i>
+       <i class="fa fa-instagram"></iclass></i>
+       <i class="fa fa-linkedin"></iclass></i>
+   </div>
+   <p>Made With <i class="fa fa-heart-o"></iclass></i> by ANAS SABIR</p>
+</section>
+
+
+
+
+   <script>
+       
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right = "0";
+
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+
+       }
+
+
+
+   </script>
+
+
+
+    </body>
+</html>
